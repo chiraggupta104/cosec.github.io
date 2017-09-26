@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSEC | Cyber And Open Source Educational Cell</title>
+<link rel="shortcut icon" href="image/Iconimage.jpg">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+   // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+<script>
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    // Activate carousel
+    $("#myCarousel").carousel();
+    
+    // Enable carousel control
+  $(".left").click(function(){
+      $("#myCarousel").carousel('prev');
+    });
+    $(".right").click(function(){
+      $("#myCarousel").carousel('next');
+    });
+    
+    // Enable carousel indicators
+    $(".slide-one").click(function(){
+      $("#myCarousel").carousel(0);
+    });
+    $(".slide-two").click(function(){
+      $("#myCarousel").carousel(1);
+    });
+    $(".slide-three").click(function(){
+      $("#myCarousel").carousel(2);
+    });
+     $(".slide-four").click(function(){
+      $("#myCarousel").carousel(3);
+    });
+      $(".slide-five").click(function(){
+      $("#myCarousel").carousel(4);
+    });
+       $(".slide-six").click(function(){
+      $("#myCarousel").carousel(5);
+    });
+        $(".slide-seven").click(function(){
+      $("#myCarousel").carousel(6);
+    });
+});
+</script>
+
+	</head>
+	<body>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  
+                   <!--Header-->
+   <div class="container-fluid background">
+
+    <div class="row">
+      <div class="col-sm-12">
+     <!--   <div class="start-text">-->
+<p><h1 class="text-right">COSEC</h1></p>
+        
+        <p class="text-right">
+ <span class="typer" id="main" data-words="Open Source Community, An Initiative of JECRC University" data-colors="white" data-delay="100" data-deleteDelay="1000"></span>
+  <span class="cursor" data-owner="main"></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+    <!-- <div id="text">
+      <span id="sitename">
+      <b>COSEC<br>
+        <span id="fullform">
+        (Open Source Community of JECRC University)</span></b>
+    
+      </span>
+    </div> -->
+  </div>
+  
+                <!--Header closed-->
+    
+               <!--Projects section block 2-->
+<div id="about">
+ <div class="container-fluid slideanim>
+  <div class="row">
+    <div class="col-sm-8">
+      <b><h1>About COSEC</h1></b>
+      <h4>It's an Open source initiative of JECRC University</h4> 
+      <p><h5>COSEC is all about to encourage students to contribute to open
+source projects and providing students with tools and education
+they need to advance their skills.
+Our goals are to raise awareness towards increased education and
+enlighten the knowledge of what, why and how to contribute to
+open source projects.
+One key initiative for COSEC is to foster the skillset of students
+through practical education. Our mission is to connecting students
+to the best open source activities on the web. Club Members will
+develop new skills, contribute to innovative web technologies, and
+be part of a powerful network of students and professionals,
+dedicated to keeping the web a public resource, open and
+accessible to all.</h5>
+</p>
+     
+    </div>
+    <div class="col-sm-4">
+      <i class="material-icons" style="font-size:200px">location_city</i>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey slideanim">
+  <div class="row">
+    <div class="col-sm-4">
+      <i class="material-icons" style="font-size:200px">group</i>
+    </div>
+    <div class="col-sm-8">
+      <b><h1>Our Mission</h1></b>
+      <h4>This is what Thrives us to work for success..</h4>
+      <p><h5>We hope to discover new talents, methods and ideas; and to
+encourage development in the field of open source. It is our hope
+that besides discovering people with good skillset, the COSEC will
+inspire the development of Information technology professionals of
+the future.
+We hope to foster friendship and create cohesiveness between
+information technology professionals, whether as an individual,
+representing a corporation or for a national agency, and encourage
+frequent exchange of essential information, technology and skills
+through the games.
+COSEC facilitates the creation of a new age of cooperation,
+collaboration, innovation, creativity.</h5></p>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    </div>
+       <!--Projects section block 2 ends-->
+          
+                <!--About us section block 3 starts-->
+    
+ <div class="container-fluid slideanim">
+  <div class="row">
+    <div class="col-sm-12">
+<div id="fossee">
+  <div class="fossee-h text-center"><b><h1>REGISTER FOR COSEC</h1></b></div>
+  <br>
+  <br>
+   <h5><p><center> The Question now arises that why you should be working with us?</center><br><br>
+    So to answer this we have few points....<br><br></p>
+   <ol type="i">
+    <li>We are the only club having a  combination of all Student Ambassadors. We have Firefox Club Amabassador, Google Facilitator, Microsoft Student Partner, Internshala Student Partner, Oyo Rooms Campus Commander, Rajasthan Cyber Cell, Madhya Pradesh Cyber Cell.</li>
+    <li> You get a chance to learn from Industry Ready Experts having hands on Web Development, Android Development, IOS Developments, Software Developers and Cyber Security Analysts. </li>
+    <li> Throughout our Sessions we will be working on Projects completely based on Open Source so that after graduation you and your CV has some weight.</li>
+    <li> You will be having great mentors guiding and motivating you to work on new technologies.</li>
+    <li> Gone are those days when you will get placed by learning C,C++ or java. Now this an era of advances technologies. So here you  will be getting a  chance to work on future technologies.</li>
+    <li>You get the chance to mentor and guide you upcoming junior once you attain some level.</li>
+    <li>You will attain a work experince before even joining a company</li>
+    <li>We will make you independent of college placements.</li>
+    <li>The best of all, its completely free</li>
+    </ol> 
+
+    <br>
+   <br> Pls follow the link below to register..
+   <br>
+   <br>
+    <div class="col-sm-12  text-right"><a class="button btn-success padding-btn" href="https://goo.gl/R6FS8P"> Click here to register...</a></div>
+  <br><br> 
+  </div> 
+  </h5></div>
+</div>
+</div>
+
+<!-- Carousel navigation bar starts here-->
+<div class="bs-example slideanim">
+  <center><h1> OUR STUDENT PARTNERS</h1></center>
+    <div id="myCarousel" class="carousel slide" data-interval="2800" data-ride="carousel">
+
+      <!-- Carousel indicators -->
+        <ol class="carousel-indicators" >
+            <li class="slide-one active"></li>
+            <li class="slide-two"></li>
+            <li class="slide-three"></li>
+             <li class="slide-four"></li>
+              <li class="slide-five"></li>
+               <li class="slide-six"></li>
+                <li class="slide-seven"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <img src="./Images/gd.png" alt="First Slide"><br>
+            <div class="carousel-caption">
+                  <h3>Google Facilitator</h3>
+                  <p>Gaurav Soni, CS 4 Year </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/MSP.jpg" alt="Second Slide"><br>
+                <div class="carousel-caption">
+                  <h3>Microsoft Student Partner</h3>
+                  <p>Shivank Gautam, CS 2 Year.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./Images/FSA.png" alt="Third Slide"><br>
+                <div class="carousel-caption">
+                  <h3>Firefox Student Ambassador</h3>
+                  <p>Prashant Pandey, CS 4 Year.</p>
+                </div>
+                 </div>
+                 <div class="item">
+                <img src="./Images/ISP.jpg" alt="Fourth Slide"><br>
+                <div class="carousel-caption">
+                  <h3>Internshala Student Partner</h3>
+                  <p>Chirag Gupta, CS 2 Year.</p>
+                </div>
+                 </div>
+                <div class="item">
+                <img src="./Images/download.png" alt="Fifth Slide"><br>
+                <div class="carousel-caption">
+                  <h3>OYO Campus Commander</h3>
+                  <p>Chirag Gupta, CS 2 Year.</p>
+                </div>
+                 </div>
+                <div class="item">
+                <img src="./Images/cpb.jpg" alt="Sixth Slide"><br><br><br><br>
+                <div class="carousel-caption">
+                  <h3>Cyber Cell, Bhopal</h3>
+                  <p>Prashant Pandey, CS 4 Year.</p>
+                </div>
+                 </div>
+                <div class="item">
+                <img src="./Images/ccr.jpg" alt="Seventh Slide"><br><br><br><br>
+                <div class="carousel-caption">
+                  <h3>Cyber Cell, Rajasthan</h3>
+                  <p>Shubham Dhanuka, CS 3 Year.</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+                                
+                          <!--Carousel ends here-->
+     
+                <!--About us section block 3 ends-->
+
+                        <!--Contact us starts here-->
+
+
+              
+              <!--Navigation bar starts here-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#" float="left">COSEC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#fossee">REGISTER</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+       
+     
+                   <!--Navigation bar ends here-->
+                   
+                   <!--footer starts here-->
+                   
+           <footer class="container-fluid text-center slideanim">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p><h5>This page is designed and developed by Chirag Gupta [A COSEC Member]</h5></p> 
+  <a href="https://www.facebook.com/cosecju" class="fa fa-facebook-square"></a>
+  <a href="#" class="fa fa-google-plus-square"></a>
+  <a href="#" class="fa fa-youtube-square"></a>
+</footer>
+<script src="js/typer.js"></script>
+</body>
+  </html>

@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: hacked;
+    src: url('hacked.ttf');
+}
+
+body{
+	margin: 0;
+	font: 400 15px Lato, sans-serif;
+    line-height: 1.0;
+}
+
+h1{
+	font-family: hacked;
+	font-size: 70px;
+}
+@font-face{
+	font-family: Evergreen;
+	src: url('Evergreen.otf');
+}
+p{
+   font-family: Evergreen;
+   font-size: 20px;
+}
+h5{
+   font-family: Evergreen;
+   font-size: 18px;
+}
+h4{
+	font-family: Evergreen;
+	font-size: 22px;
+}
+h3{
+	font-family: Evergreen;
+	font-size: 18px;
+}
+
+.padding-btn{
+	padding: 10px;
+}
+
+.padding-btn{
+	text-decoration: none;
+}
+
+.background{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100vh;
+	width: 100%;
+	background: url(../Images/Background.jpg) no-repeat 0 0;
+	background-size: cover;
+	background-position: center;
+	background background-blend-mode: color-dodge;
+
+}
+#sitename{
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 55px;
+	color: white;
+	text-align: center;
+}
+
+.background .row .col-sm-12 h1{
+	font-size: 150px;
+	color: #fff;
+	opacity: 1;
+}
+
+#navh{
+	color:white;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 30px;
+	text-align: center;
+	padding: 20px 20px;
+}
+#gupta{
+	background-color: black;
+	padding: 10px 15px;
+	opacity: 0.6;
+}
+.form{
+	margin-top: 150px;
+	margin-left: 100px;
+	text-align: center;
+	
+}
+.align{
+	padding: 50px 50px;
+}
+
+
+.contact{
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 35px;
+	text-align: center;
+}
+.con{
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 25px;
+	text-align: center;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+.logo-small {
+    color: black;
+    font-size: 50px;
+}
+
+.logo {
+    color: black;
+    font-size: 200px;
+}
+#fullform {
+	font-size: 25px;
+	color:white;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+#fossee{
+  background-color: #282323;
+  color: white;
+  font-size: 18px;
+  padding: 35px 20px;
+}
+.fossee-h{
+	font-size: 30px;
+	font-style: Bebas Neue;
+}
+ .navbar {
+      margin-bottom: 0;
+      background-color: black;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+	
+	footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.slideanim {visibility:hidden;}
+.slide {
+ 
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+   
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+   
+    visibility: visible; 
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  text-decoration: none;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.carousel{
+    background: #681010;
+    margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
+}
+.carousel img{
+	height:200px;
+	width: 200px;
+	padding-bottom: 60px;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  font-size: 32px;
+  height: 70px;
+  width: 70px;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+ font-size: 32px;
+  height: 70px;
+  width: 70px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: 32px;
+   height: 70px;
+  width: 70px;
+}
